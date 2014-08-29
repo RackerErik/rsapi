@@ -475,7 +475,7 @@ param(
 
 function Resize_RSNextGenServer(){
 param( 
-        [Paramet er(Mandatory=$True)]$Server,
+        [Parameter(Mandatory=$True)]$Server,
         [Parameter(Mandatory=$True)]$FlavorID,
         [Parameter()][ValidateSet("AUTO","MANUAL")][string]$diskConfig
     )
